@@ -1,3 +1,5 @@
+<img src="kdp/cover-ebook.jpg" alt="Demons at Work" width="300" align="right">
+
 # Demons at Work
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20020300.svg)](https://doi.org/10.5281/zenodo.20020300)
@@ -5,6 +7,13 @@
 A satirical horror novelette narrated by a mid-career demon in hell's Hauntings department.
 
 **Status:** First draft complete (April 2026). 23 chapters, ~13,600 words. KDP-ready pipeline.
+
+## Reading it
+
+- **Amazon KDP:** a Kindle edition ($3.99) and a 5.5 x 8.5 in paperback ($9.99, ~120 pages) are prepared. Buy links added here once the listings are live.
+- **From this repository:** the build outputs are tracked, so you can read it directly.
+  - [`demons_at_work.pdf`](demons_at_work.pdf), the print reading edition (61 pages).
+  - [`demons_at_work.epub`](demons_at_work.epub), the reflowable Kindle edition (chapter vignettes inline).
 
 ## The Premise
 
