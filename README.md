@@ -10,7 +10,7 @@ A satirical horror novelette narrated by a mid-career demon in hell's Hauntings 
 
 ## Reading it
 
-- **Amazon:** [Kindle edition](https://www.amazon.com/Demons-at-Work-Alex-Towell-ebook/dp/B0GX2P98MH) ($3.99).
+- **Amazon:** [Kindle edition](https://www.amazon.com/Demons-at-Work-Alex-Towell-ebook/dp/B0GX2P98MH) ($3.99) or [paperback](https://www.amazon.com/Demons-at-Work-Alex-Towell/dp/B0GX633FYN) ($9.99, 5.5 x 8.5 in).
 - **From this repository:** the build outputs are tracked, so you can read it directly.
   - [`demons_at_work.pdf`](demons_at_work.pdf), the print reading edition (61 pages).
   - [`demons_at_work.epub`](demons_at_work.epub), the reflowable Kindle edition (chapter vignettes inline).
