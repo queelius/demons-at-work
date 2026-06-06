@@ -1,0 +1,147 @@
+\documentclass[12pt,letterpaper,oneside]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\setlength{\headheight}{14.5pt}
+\addtolength{\topmargin}{-2.5pt}
+\usepackage{titlesec}
+\usepackage{tocloft}
+\usepackage[hidelinks]{hyperref}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{epigraph}
+\usepackage{graphicx}
+
+% Chapter vignettes
+\newcommand{\chaptervignette}{}
+\newcommand{\setchaptervignette}[1]{%
+  \renewcommand{\chaptervignette}{#1}%
+}
+\newcommand{\vignetteimage}[1]{%
+  \ifx\chaptervignette\empty #1\else
+    \IfFileExists{\chaptervignette.png}{%
+      #1\hspace{0.5em}%
+      $\vcenter{\hbox{\includegraphics[height=1.8em]{\chaptervignette}}}$%
+    }{#1}%
+  \fi
+}
+
+% Typography
+\setstretch{1.5}
+\setlength{\parindent}{0.5in}
+\setlength{\parskip}{0pt}
+
+% Chapter formatting: number, vignette, title, centered
+\titleformat{\chapter}[display]
+{\normalfont\bfseries\centering}
+{\large\thechapter}
+{8pt}{\huge\vignetteimage}
+\titlespacing*{\chapter}{0pt}{40pt}{30pt}
+
+% Headers
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[R]{\thepage}
+\fancyhead[L]{Demons at Work}
+\renewcommand{\headrulewidth}{0pt}
+
+% Metadata
+\title{Demons at Work}
+\author{Alex Towell}
+\date{2026}
+
+\begin{document}
+
+\frontmatter
+
+% Title page
+\begin{titlepage}
+\centering
+\vspace*{3in}
+{\Huge\bfseries Demons at Work\par}
+\vspace{0.5in}
+{\Large Alex Towell\par}
+\vfill
+\end{titlepage}
+
+% Copyright page
+\thispagestyle{empty}
+\vspace*{\fill}
+\begin{center}
+Copyright \copyright\ 2026 by Alex Towell\\[1em]
+All rights reserved. No part of this book may be reproduced in any form
+without written permission from the author, except for brief quotations
+in reviews.\\[2em]
+This is a work of fiction. Names, characters, organizations, events, and
+incidents are either products of the author's imagination or used
+fictitiously. Any resemblance to actual persons, living or dead, or
+actual events is purely coincidental.\\[2em]
+First Edition\\[1em]
+metafunctor.com
+\end{center}
+\vspace*{\fill}
+\cleardoublepage
+
+% Epigraph
+\thispagestyle{empty}
+\vspace*{\fill}
+\epigraph{``One must imagine Sisyphus happy.''}{Albert Camus, \textit{The Myth of Sisyphus} (1942)}
+\vspace*{\fill}
+\cleardoublepage
+
+% Dedication
+\thispagestyle{empty}
+\vspace*{3in}
+\begin{center}
+\textit{For everyone who went back to work on Monday.}
+\end{center}
+\vfill
+\cleardoublepage
+
+\tableofcontents
+\cleardoublepage
+
+\mainmatter
+
+% ============================================================
+% Chapters
+% ============================================================
+% Add new chapters here as they are drafted.
+% Each chapter gets a sumi-e vignette between the number and the title.
+\setchaptervignette{art/vignettes/01-on-paper}     \include{chapters/01-briefing}
+\setchaptervignette{art/vignettes/02-hat}           \include{chapters/02-office}
+\setchaptervignette{art/vignettes/03-the-canvas}    \include{chapters/03-the-house}
+\setchaptervignette{art/vignettes/04-fourteen-minutes} \include{chapters/04-phase-one}
+\setchaptervignette{art/vignettes/05-good-acoustics}   \include{chapters/05-check-in}
+\setchaptervignette{art/vignettes/06-six-minutes-early} \include{chapters/06-week-two}
+\setchaptervignette{art/vignettes/07-the-garden}    \include{chapters/07-the-garden}
+\setchaptervignette{art/vignettes/08-cancellation}  \include{chapters/08-cancellation}
+\setchaptervignette{art/vignettes/09-trust-the-process} \include{chapters/09-how-do-you-know}
+\setchaptervignette{art/vignettes/10-revised-protocols} \include{chapters/10-revised-protocols}
+\setchaptervignette{art/vignettes/11-wednesday-night}   \include{chapters/11-peak}
+\setchaptervignette{art/vignettes/12-middlemarch}   \include{chapters/12-the-turn}
+\setchaptervignette{art/vignettes/13-the-report}    \include{chapters/13-the-report}
+\setchaptervignette{art/vignettes/14-eleven-minutes} \include{chapters/14-eleven-minutes}
+\setchaptervignette{art/vignettes/15-two-cups}      \include{chapters/15-two-cups}
+\setchaptervignette{art/vignettes/16-mid-cycle}     \include{chapters/16-mid-cycle}
+\setchaptervignette{art/vignettes/17-the-doorway}   \include{chapters/17-the-doorway}
+\setchaptervignette{art/vignettes/18-please-address} \include{chapters/18-please-address}
+\setchaptervignette{art/vignettes/19-direct-interface} \include{chapters/19-direct-interface}
+\setchaptervignette{art/vignettes/20-meri}          \include{chapters/20-meri}
+\setchaptervignette{art/vignettes/21-the-field}     \include{chapters/21-the-field}
+\setchaptervignette{art/vignettes/22-completion}    \include{chapters/22-completion}
+\setchaptervignette{art/vignettes/23-the-next-file} \include{chapters/23-the-next-file}
+
+% ============================================================
+% Back Matter
+% ============================================================
+\backmatter
+
+\include{chapters/backmatter-reading}
+\include{chapters/backmatter-author}
+\include{chapters/backmatter-also-by}
+
+\end{document}

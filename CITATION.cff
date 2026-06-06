@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+title: "Demons at Work"
+message: "If you reference this novelette in academic or critical work, please cite it using these metadata."
+type: software
+authors:
+  - given-names: Alexander
+    family-names: Towell
+    email: lex@metafunctor.com
+    orcid: "https://orcid.org/0000-0001-6443-9897"
+    affiliation: "Southern Illinois University Edwardsville"
+abstract: >-
+  A satirical horror novelette narrated by a mid-career demon in hell's
+  Hauntings department. The premise: horror movie tropes are a demon's actual
+  job, and the job makes no sense from the inside. The horror set pieces are
+  genuinely well-crafted; the comedy comes from backstage. Underneath: a
+  meditation on doing harmful work well inside an institution whose purpose
+  nobody can defend.
+keywords:
+  - satirical horror
+  - horror comedy
+  - workplace satire
+  - complicity
+  - Sisyphus
+  - absurdism
+  - novelette
+license: CC-BY-NC-ND-4.0
+repository-code: "https://github.com/queelius/demons-at-work"
+url: "https://github.com/queelius/demons-at-work"
+date-released: "2026-04-12"
+version: "0.1.0"

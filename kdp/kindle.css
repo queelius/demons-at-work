@@ -1,0 +1,129 @@
+/* Kindle/EPUB Stylesheet for Demons at Work */
+
+/* Body */
+body {
+  font-family: Georgia, serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Chapter headings */
+h1 {
+  font-size: 1.8em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 1.5em;
+  page-break-before: always;
+}
+
+/* Section breaks */
+hr {
+  border: none;
+  text-align: center;
+  margin: 2em 0;
+}
+
+hr::after {
+  content: "* * *";
+  font-size: 1.2em;
+  letter-spacing: 0.5em;
+}
+
+/* Block quotes */
+blockquote {
+  margin: 1.5em 1em;
+  padding: 0.5em 1em;
+  border-left: 3px solid #666;
+  font-style: italic;
+}
+
+blockquote p {
+  text-indent: 0;
+}
+
+/* Emphasis */
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+/* Paragraphs */
+p {
+  text-indent: 1.5em;
+  margin: 0;
+  widows: 2;
+  orphans: 2;
+}
+
+/* First paragraph after heading: no indent */
+h1 + p,
+h2 + p,
+hr + p,
+blockquote + p {
+  text-indent: 0;
+}
+
+/* Title page */
+.titlepage {
+  text-align: center;
+  margin-top: 30%;
+  padding: 0;
+}
+
+.titlepage h1,
+.titlepage .title {
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 0 0.5em 0;
+  padding: 0;
+  text-indent: 0;
+  page-break-before: avoid;
+}
+
+.titlepage p,
+.titlepage .author {
+  font-size: 1.3em;
+  text-align: center;
+  text-indent: 0;
+  margin-top: 2em;
+}
+
+/* Hide invisible front matter header */
+h1.unlisted {
+  display: none;
+}
+
+/* Front matter pages */
+.copyright-page {
+  text-align: center;
+  font-size: 0.85em;
+  margin-top: 40%;
+  page-break-before: always;
+}
+
+.copyright-page p {
+  text-indent: 0;
+}
+
+.dedication-page {
+  text-align: center;
+  font-style: italic;
+  margin-top: 30%;
+  page-break-before: always;
+}
+
+.dedication-page p {
+  text-indent: 0;
+}
+
+/* Footnotes */
+.footnote {
+  font-size: 0.85em;
+  line-height: 1.4;
+}

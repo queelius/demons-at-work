@@ -1,0 +1,19 @@
+# demons-at-work — Satirical Horror
+#
+# A demon narrates their professional life in hell's Hauntings department.
+# Horror tropes deconstructed from the monster's POV.
+
+universe: demons-at-work
+
+lore: lore/
+
+works:
+  - name: Demons at Work
+    type: novelette
+    manuscript: chapters/
+    file_types: [tex]
+    description: >
+      Satirical horror. First-person narration by a mid-career demon
+      in hell's Hauntings department. The horror genre deconstructed
+      from backstage. Dry humor, genuinely effective horror set pieces,
+      deadpan internal monologue. Working title.

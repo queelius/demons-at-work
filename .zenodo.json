@@ -1,0 +1,35 @@
+{
+  "title": "Demons at Work",
+  "description": "A satirical horror novelette narrated by a mid-career demon in hell's Hauntings department. The premise: horror movie tropes are a demon's actual job, and the job makes no sense from the inside. First-person, dry humor, deadpan. The horror set pieces are genuinely well-crafted; the comedy comes from the demon's backstage perspective. Underneath: a meditation on doing harmful work well inside an institution whose purpose nobody can defend.",
+  "upload_type": "publication",
+  "publication_type": "book",
+  "creators": [
+    {
+      "name": "Towell, Alexander",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "keywords": [
+    "satirical horror",
+    "horror comedy",
+    "workplace satire",
+    "complicity",
+    "Sisyphus",
+    "absurdism",
+    "novelette"
+  ],
+  "license": {
+    "id": "CC-BY-NC-ND-4.0"
+  },
+  "access_right": "open",
+  "language": "eng",
+  "version": "0.1.0",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/queelius/demons-at-work",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
