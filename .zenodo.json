@@ -30,6 +30,16 @@
       "identifier": "https://github.com/queelius/demons-at-work",
       "relation": "isSupplementTo",
       "scheme": "url"
+    },
+    {
+      "identifier": "https://www.amazon.com/Demons-at-Work-Alex-Towell-ebook/dp/B0GX2P98MH",
+      "relation": "isVariantFormOf",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://www.amazon.com/Demons-at-Work-Alex-Towell/dp/B0GX633FYN",
+      "relation": "isVariantFormOf",
+      "scheme": "url"
     }
   ]
 }
